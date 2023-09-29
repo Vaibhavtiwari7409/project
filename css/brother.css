@@ -1,0 +1,35 @@
+.navbar {
+    background: #00000082 !important;
+}
+
+.navbar-nav li {
+    padding: 10px;
+}
+
+.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.border-box {
+    border: #fbaa1a 1px solid;
+}
+
+.weblogo {
+    width: 65px;
+}
+
+.nav-link.active {
+    color: #fbaa1a;
+}
+
+img {
+    width: 100%;
+
+}
+.img-title {
+    
+    color: black;
+    text-align: center;
+}
