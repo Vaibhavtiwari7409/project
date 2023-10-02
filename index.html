@@ -2,168 +2,362 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>manoj kumar and brother</title>
-    <!--bootstrap link-->
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="css/brother.css">
-    <!--font awesome link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <!--javacript link-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="icon" href="https://www.firstfiddle.in/assets/images/ff-logo-02.png">
+  <!--bootstrap link-->
+  <link rel="stylesheet" href="bootstrap.css">
+  <!--font awesome link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!--javacript link-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
+  <style>
+    .body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .navbar {
+      background: #00000082 !important;
+    }
+
+    .navbar-nav li {
+      padding: 0 7px;
+    }
+
+    .navbar-nav li a {
+      color: #fff !important;
+      font-weight: 600;
+      font-size: 15px;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 2px;
+    }
+
+    .weblogo {
+      width: 65px;
+    }
+
+    a {
+      padding-top: 20px;
+      text-transform: uppercase;
+      font-family: 'prague';
+      letter-spacing: 3px;
+      text-align: center;
+    }
+
+    .img {
+      width: 80%;
+      box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    }
+
+    .c {
+      line-height: 35px;
+      letter-spacing: 1px;
+      word-spacing: 1px;
+      padding-right: 5px;
+      text-align: justify;
+    }
+
+
+
+    .why {
+      background-image: url(https://tse1.mm.bing.net/th?id=OIP.Mj7vYRKQX8mdJgKkwr6b6wHaEK&pid=Api&P=0&h=180);
+      width: 100%;
+      height: 450px;
+      padding-right: 0px !important;
+      padding-left: 0px !important;
+      margin-right: auto;
+      margin-left: auto;
+      background-size: cover;
+    }
+
+    .mm {
+      margin-top: 102px;
+      padding-top: 20px;
+      text-transform: uppercase;
+      font-family: 'prague';
+      letter-spacing: 3px;
+    }
+
+    .btn {
+      color: #ffffff;
+      padding: 10px 20px;
+      font-weight: bolder;
+    }
+
+    .mt-20 {
+      margin-top: 102px;
+    }
+
+    .ml-1 {
+      padding-top: 20px;
+      text-transform: uppercase;
+      font-family: 'prague';
+      letter-spacing: 3px;
+    }
+
+    .why-2 {
+      background-image: url(https://tse1.mm.bing.net/th?id=OIP.Mj7vYRKQX8mdJgKkwr6b6wHaEK&pid=Api&P=0&h=180);
+      width: 100%;
+      padding-left: 0px !important;
+      padding-right: 0px !important;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 0px !important;
+      background-size: cover;
+    }
+
+    footer {
+      background: #020306f0;
+      padding: 50px;
+      color: #fff;
+    }
+
+    footer h2 {
+      font-family: 'prague';
+      font-size: 2rem;
+      line-height: 50px;
+      letter-spacing: 3px;
+      color: #fff;
+    }
+
+    footer p {
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 1px;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      text-align: justify;
+    }
+
+    footer .foot-add {
+      padding: 15px;
+    }
+
+    footer b {
+      color: #fcb21b;
+    }
+
+    /* footer .container-fluid .row .col-md-7 .row i{
+        margin-right: 8px;
+      } */
+
+    @media(max-width:768px) {
+      .img {
+        width: 100%;
+      }
+
+    }
+  </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark ">
-        <div class="container-fluid">
-            <a href="" class="navbar-brand">
-                <img src="http://1000marcas.net/wp-content/uploads/2020/03/Logo-ACC.png" class="weblogo">
-            </a>
-            <!--mobile menu-->
-            <button class="navbar-toggler" data-bs-target="#na" data-bs-toggle="collapse">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--menu div start-->
-            <div class="navbar-collapse collapse" id="na">
-                <ul class="navbar-nav ms-auto text-center">
-                    <li><a href="index.html" class="nav-link active">ACC</a></li>
-                    <li><a href="prefect.html" class="nav-link">PREFECT</a></li>
-                    <li><a href="brands.html" class="nav-link">PVC</a></li>
-                    <li><a href="our team.html" class="nav-link">CONTACT</a></li>
-                    <li><a href="press.html" class="nav-link">ENQUIRE</a></li>
-                    
+  <!--navbar-->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a href="" class="navbar-brand">
+        <img src="https://tse4.mm.bing.net/th?id=OIP.toY9FTrq33Zib-Lc1iRqNwHaHa&pid=Api&P=0&h=180" alt="" class="weblogo">
+      </a>
+      <!--mobile menu-->
+      <button class="navbar-toggler" data-bs-target="#na" data-bs-toggle="collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!--menu div start-->
+      <!--menu div start-->
+      <href></href>
+      <div class="navbar-collapse collapse" id="na">
+        <ul class="navbar-nav ms-auto text-center">
+          <li><a href="home.html" class="nav-link">HOME</a></li>
+          <li><a href="about.html" class="nav-link">ABOUT</a></li>
+          <li><a href="about.html" class="nav-link">ABOUT</a></li>
+          <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      
 
-                </ul>
-                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aa">
-                    Login
-            </div>
-            <!--menu div end-->
-        </div><!--container-fluid end-->
-    </nav>
-    <div class="box">
-        <img class="desk-banner d-block w-100 banner-margin">
-        <img class="mob-banner"
-            src="https://www.adgully.com/img/800/201806/acc-limited-edp-for-all-its-blended-cement-products.jpg" alt="">
+
+        </ul>
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#aa">
+          Login
+
+      </div>
+    </div> <!--container-fluid-->
+  </nav>
+  <img src="https://5.imimg.com/data5/GE/TI/MY-13363529/upvc-fittings-1000x1000.png" alt="" class="w-100">
+
+  <div class="container">
+    <h2 class="a text-center" style="margin-top: 30px;">WELCOME TO <b style="color:greenyellow">PVC PIPE </b></h2>
+    <br>
+    <div class="row">
+      <div class="col-md-7">
+        <p class="c">Ashirvad pipes Pvt LTD is the innovator in emerging in addition 
+            industrial uPVC column pipes that are actually effectively used in creation of 
+            submersible borehole pumps upto a depth of 1,000 feet and further. Till date more 
+            than 2,000,000 effective fittings have engaged with Ashirvad pipes through the globe.
+        </p>
         <br><br>
-        <div class="img-title">
-            <h1 class="brandsline" style="font-family: 'prague';font-size: 43px;">MANOJ KUMAR AND BROTHERS BUILDING
-                MATERIALS
-                AND HARDWARE STORE</h1>
+        <center>
+          <button class="btn btn-warning btn-lg mb-3">Buy now...</button>
+        </center>
+      </div> <!--col-md-7 end-->
+      <div class="col-md-5 text-center">
+        <img src="https://www.rakshapipes.com/images/PLUM_CLUSTER.png" class="img" alt="">
+      </div>
+    </div> <!--row end-->
+  </div> <!--container end-->
+  <br><br>
+
+  <div class="container-fluid why">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+
+        </div> <!--col-md-2-->
+        <div class="col-md-8 text-center">
+          <h2 class="text-center ml-1 text-white mt-20 mm">Ashirvad pipes</h2>
+          <p style="line-height: 40px; letter-spacing: 1px; color: white;">
+            Ashirvad pipes Pvt LTD is the innovator in emerging in addition 
+            industrial uPVC column pipes that are actually effectively used in creation of 
+            submersible borehole pumps upto a depth of 1,000 feet and further. Till date more 
+            than 2,000,000 effective fittings have engaged with Ashirvad pipes through the globe.
+          </p> <br>
+          <a class="btn mtop" href="" style="background-color: #fbac29;
+            border-radius: 0px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">KNOW MORE</a>
+        </div> <!--col-md-8-->
+        <div class="col-md-2">
+
+        </div> <!--col-md-2-->
+      </div> <!--row end-->
+    </div> <!--container end-->
+  </div> <!--container-fluid end-->
+
+  <br><br>
+
+  <div class="container large">
+    <h2 class="text-center ml-1 ">buy now<b style="color: greenyellow;">Ashirvad Pipes</b></h2>
+    <br>
+    <div class="row">
+
+      <div class="col-md-3 mb-3"><img src="https://5.imimg.com/data5/BE/QR/XH/IOS-13703949/product-jpeg-500x500.png"
+          class="w-100" alt=""></div>
+      <div class="col-md-3 mb-3"><img src="https://5.imimg.com/data5/BE/QR/XH/IOS-13703949/product-jpeg-500x500.png"
+          class="w-100" alt=""></div>
+      <div class="col-md-3 mb-3"><img src="https://5.imimg.com/data5/BE/QR/XH/IOS-13703949/product-jpeg-500x500.png"
+          class="w-100" alt=""></div>
+      <div class="col-md-3 mb-3"><img src="https://5.imimg.com/data5/BE/QR/XH/IOS-13703949/product-jpeg-500x500.png"
+          class="w-100" alt=""></div>
+
+
+
+    </div> <!--row end-->
+  </div> <!--container end-->
+  <br>
+
+  <div class="container-fluid why-2">
+    <div class="container">
+      <div class="row" style="padding-bottom: 75px;">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 text-center">
+          <h2 class="mt-20 ml-1 text-center" style="color: #ffffff; font-size: 35px;">Ashirvad pipes</h2>
+          <p style="line-height: 40px;letter-spacing: 1px; color: white;">
+            Ashirvad pipes Pvt LTD is the innovator in emerging in addition 
+            industrial uPVC column pipes that are actually effectively used in creation of 
+            submersible borehole pumps upto a depth of 1,000 feet and further. Till date more 
+            than 2,000,000 effective fittings have engaged with Ashirvad pipes through the globe.
+          </p> <br> <br>
+          <a class="btn mtop" style="background-color: #fbac29; border-radius: 0px; 
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"
+            href="">buy now</a>
         </div>
-        <br><br>
+        <div class="col-md-2"></div>
+      </div> <!--row end-->
+    </div> <!--container end-->
+  </div> <!--container-fluid-->
 
-        <div class="container-fluid"
-            style=" background: wheat width: 100%;padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;">
-            <div class="row" style=" padding-right: 70px;padding-left: 70px;">
-                <div class="col-md-3" style="margin-top: 10px;"><a href=""><img
-                            src="https://tse3.mm.bing.net/th?id=OIP.m3AEgSl4ZVkt9d00g7iO1gHaE8&pid=Api&P=0&h=180" alt=""
-                            class="brands-logo w-100"></a></div>
-
-                <div class="col-md-3" style="margin-top: 10px;"><a href=""><img
-                            src="https://www.re-thinkingthefuture.com/wp-content/uploads/2020/06/A1075-10-Different-construction-materials-around-the-globe-Steel-Image-1.jpg"
-                            alt="" class="brands-logo w-100"></a></div>
-
-                <div class="col-md-3" style="margin-top: 10px;"><a href=""><img
-                            src="https://www.fanabc.com/english/wp-content/uploads/2020/07/construction-material-750x430.jpg"
-                            alt="" class="brands-logo w-100"></a></div>
-
-                <div class="col-md-3" style="margin-top: 10px;"><a href=""><img
-                            src="https://www.veritas-consulting.co.uk/wp-content/uploads/2015/05/Building-Materials.jpg"
-                            alt="" class="brands-logo w-100"></a></div>
-                <center> . <div class="a" style="background: yellow;"> भवन निर्माण के लिए प्रयुक्त होने वाले मटेरियल की सूची:-
-                    <br><br>
-                    हमारे यहां पर • गिट्टी• बालू• डॉमी• सरिया• प्लाई• तार• पानी का प्लॉट• कील• हुक• शीशा•टाइल्स•लोहा•
-                    अन्य आजा
-                    <br><br>
-                    <button class="btn btn-warning btn-lg mb-3">BUY NOW...</button>
-                </center>
-                </div>
-
-
-            </div> <!--row end-->
-
-        </div><!--row end-->
-    </div><!--container end-->
-    <br><br>
-    <footer>
-        <div class="container-fluid" style="background: palegoldenrod;">
-            <div class="row">
-                <div class="col-md-5 text-center">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3562.954122713724!2d79.04233497496742!3d26.745840067242884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39760bbb76ec519d%3A0xb4a994ccdb438fb1!2sM%2FS%20MANOJ%20KUMAR%20%26%20BROTHERS%20BUILDING%20MATERIAL%20STORE!5e0!3m2!1sen!2sin!4v1695925197508!5m2!1sen!2sin"
-                        br><br>
-                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="col-md-7">
-                    <h2 class="">
-                        <span style=" color: #ffad00;">CONTACT </span>US
-                    </h2>
-                    <p>Your customers have to keep current with industry changes, too.
-                        Plus, they need to be on top of the project they are working while
-                        deep into planning the next one. They’re problem-solving and overseeing.</p>
-                    <div class="row">
-                        <div class="col-md-6 foot-add">
-                            <span>
-                                <b>Address:</b>
-                                <br>
-                                MANIKPUR MOHAN POST MANIKPUR VISHU ETAWAH 206003
-                            </span>
-                        </div>
-                        <div class="col-md-6 foot-add">
-                            <span>
-                                <b> Enquiry </b>
-                                <br>
-                                Mobile: <a href=""><b>+91 9758359228</b></a>
-                                Mobile: <a href=""><b>+91 9639405239</b></a>
-                                <br>
-                                Email: <a href=""><b>updeshtiwari8080@gmail.com</b></a>
-                            </span>
-                        </div>
-                    </div><!--row end-->
-
-                    <div class="social-icons text-left ">
-                        <a href="" target="_blank"><i class="fa fa-linkedin"></i>
-                        </a>
-                        &nbsp;&nbsp;
-                        <a href="" target="_blank"><i class="fa fa-facebook"></i>
-                        </a>
-                        &nbsp;&nbsp;
-                        <a href="" target="_blank"><i class="fa-brands fa-twitter"></i>
-                        </a>
-                        &nbsp;&nbsp;
-                        <a href="" target="_blank"><i class="fa fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div><!--row end-->
-        </div><!--container-fluid end-->
-    </footer>
-    <div class="container-fluid" style="background-color:#000;padding-top:28px;padding-bottom:30px">
-        <div class="row" style="display: block;">
-            <div class="text-center">
-                <p class="copyright-text  p2" style="font-size: 13px; line-height: 30px;">
-                    <a href="" style="text-decoration:none;color:#fff;">EMPLOYEE POLICIES</a>
-                    |
-                    <a href="" style="text-decoration:none;color:#fff;">PRIVACY POLICY</a>
-                    |
-                    <a href="" style="text-decoration:none;color:#fff;">TERMS AND CONDITIONS</a>
-                    |
-                    <a href="" style="text-decoration:none;color:#fff;">BLOG</a>
-                    |
-                    <a href="" style="text-decoration:none;color:#fff;">APP</a>
-                    <br>
-                    COPYRIGHT © 2021
-                    <a href="" style="text-decoration:none;color:#fff;"> FIRST FIDDLE F&B PRIVATE LIMITED</a>
-                </p>
-            </div>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-5 text-center">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.RArmpYqmyp3fcb6eBp0D0QAAAA&pid=Api&rs=1&c=1&qlt=95&w=107&h=107" style="margin-top: 30px; width: 50%;">
         </div>
-    </div>
-</body>
+        <div class="col-md-7">
+          <h2>
+            <span style="color: red;">CONTACT </span>US
+            <br><br>
+            Ashirvad pipes Pvt LTD is the innovator in emerging in addition 
+            industrial uPVC column pipes that are actually effectively used in creation of 
+            submersible borehole pumps upto a depth of 1,000 feet and further. Till date more 
+            than 2,000,000 effective fittings have engaged with Ashirvad pipes through the globe. </h2>
+          <p>
+           
+          </p>
+          <div class="row">
+            <div class="col-md-6 foot-add">
+              <span>
+                <b>Address:</b>
+                <br>
+                manikpur mohan post manikpur vishu etawah 206003
+              </span>
+            </div>
+            <div class="col-md-6 foot-add">
+              <span>
+                <b>Enquiry</b>
+                <!-- <br> -->
+                <!-- Mobile: -->
+                    <a href=""><b>+91 9758359228</b></a>
+                    <a href=""><b>+91 9639405239</b></a> 
+                <br>
+                Email : <a href=""
+                  style="letter-spacing: 0; font-family:'Montserrat',sans-serif;text-decoration: none;"><b
+                    style="text-transform: lowercase;">updeshtiwari8080@gmail.com</b></a>
+              </span>
+            </div>
+          </div> <!--row end-->
 
-</html>
+          <div class="row">
+            <div class="col-md-6 foot-add" style="display: flex;">
+              <i class="fa-brands fa-linkedin fa-2xl" style="color: #fcb21b;"></i>
+              &nbsp;&nbsp;&nbsp;
+              <i class="fa-brands fa-square-facebook fa-2xl" style="color: #fcb21b;"></i>
+              &nbsp;&nbsp;&nbsp;
+              <i class="fa-brands fa-twitter fa-2xl" style="color: #fcb21b;"></i>
+              &nbsp;&nbsp;&nbsp;
+              <i class="fa-brands fa-instagram fa-2xl" style="color: #fcb21b;"></i>
+            </div>
+            <div class="col-md-6 foot-add">
+              <h3></h3>
+            </div>
+          </div> <!--row end-->
+        </div> <!--col-md-7 end-->
+      </div> <!--row end-->
+    </div> <!--container-fluid end-->
+  </footer>
+
+  <div class="container-fluid" style="background-color: #000; padding-top: 30px; padding-bottom: 30px;">
+    <div class="row">
+      <div class="text-center">
+        <p style="font-size: 13px; color: white; margin-top: 0px; margin-bottom: 0rem;">
+          <a href="" style="text-decoration: none; color: #fff;">EMPLOYEE
+            POLICIES</a> |
+          <a href="" style="text-decoration: none; color: #fff;">PRIVACY
+            POLICY</a> |
+          <a href="" style="text-decoration: none; color: #fff;">TERMS AND
+            CONDITIONS </a> |
+          <a href="" style="text-decoration: none; color: #fff;">BLOG</a> |
+          <a href="" style="text-decoration: none; color: #fff;">APP </a>
+          <br>
+          COPYRIGHT © 2023&nbsp;
+          <a href="" style="text-decoration: none; color: #fff;">Ashirvad pipes
+            LIMITED</a>
+        </p>
+      </div>
+    </div> <!--row end-->
+  </div> <!--container-fluid end-->
+
+  
 </body>
 
 </html>
